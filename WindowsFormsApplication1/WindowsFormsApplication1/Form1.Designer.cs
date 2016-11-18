@@ -48,13 +48,14 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button_hai = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(13, 12);
+            this.textBox1.Location = new System.Drawing.Point(112, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 40);
@@ -283,12 +284,23 @@
             this.label1.Size = new System.Drawing.Size(52, 27);
             this.label1.TabIndex = 19;
             // 
+            // button_hai
+            // 
+            this.button_hai.Location = new System.Drawing.Point(282, 157);
+            this.button_hai.Name = "button_hai";
+            this.button_hai.Size = new System.Drawing.Size(89, 23);
+            this.button_hai.TabIndex = 20;
+            this.button_hai.Text = "Приветствие";
+            this.button_hai.UseVisualStyleBackColor = true;
+            this.button_hai.Click += new System.EventHandler(this.button_hai_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(284, 396);
+            this.ClientSize = new System.Drawing.Size(383, 396);
+            this.Controls.Add(this.button_hai);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -338,6 +350,7 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button_hai;
     }
 }
 
