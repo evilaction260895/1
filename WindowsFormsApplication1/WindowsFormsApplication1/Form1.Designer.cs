@@ -48,13 +48,14 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button45_32q = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(13, 12);
+            this.textBox1.Location = new System.Drawing.Point(106, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 40);
@@ -238,7 +239,6 @@
             this.button15.TabIndex = 15;
             this.button15.Text = "*";
             this.button15.UseVisualStyleBackColor = true;
-           
             // 
             // button16
             // 
@@ -274,7 +274,6 @@
             this.button18.TabIndex = 18;
             this.button18.Text = "/";
             this.button18.UseVisualStyleBackColor = true;
-            
             // 
             // label1
             // 
@@ -285,12 +284,23 @@
             this.label1.Size = new System.Drawing.Size(52, 27);
             this.label1.TabIndex = 19;
             // 
+            // button45_32q
+            // 
+            this.button45_32q.Location = new System.Drawing.Point(280, 137);
+            this.button45_32q.Name = "button45_32q";
+            this.button45_32q.Size = new System.Drawing.Size(75, 23);
+            this.button45_32q.TabIndex = 20;
+            this.button45_32q.Text = "Приветствие";
+            this.button45_32q.UseVisualStyleBackColor = true;
+            this.button45_32q.Click += new System.EventHandler(this.button45_32q_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(284, 396);
+            this.ClientSize = new System.Drawing.Size(377, 396);
+            this.Controls.Add(this.button45_32q);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -340,6 +350,7 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button45_32q;
     }
 }
 

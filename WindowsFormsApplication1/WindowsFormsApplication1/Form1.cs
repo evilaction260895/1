@@ -133,5 +133,10 @@ namespace WindowsFormsApplication1
             textBox1.Text = "";
             label1.Text = "";
         }
+
+        private void button45_32q_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = (" Привет математик");
+        }
     }
 }
