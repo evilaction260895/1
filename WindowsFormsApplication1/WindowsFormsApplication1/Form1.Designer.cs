@@ -48,18 +48,20 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button19_3234 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(13, 12);
+            this.textBox1.Location = new System.Drawing.Point(112, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 40);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -238,7 +240,6 @@
             this.button15.TabIndex = 15;
             this.button15.Text = "*";
             this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -274,7 +275,6 @@
             this.button18.TabIndex = 18;
             this.button18.Text = "/";
             this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // label1
             // 
@@ -285,12 +285,23 @@
             this.label1.Size = new System.Drawing.Size(52, 27);
             this.label1.TabIndex = 19;
             // 
+            // button19_3234
+            // 
+            this.button19_3234.Location = new System.Drawing.Point(277, 74);
+            this.button19_3234.Name = "button19_3234";
+            this.button19_3234.Size = new System.Drawing.Size(75, 23);
+            this.button19_3234.TabIndex = 20;
+            this.button19_3234.Text = "Сообщением";
+            this.button19_3234.UseVisualStyleBackColor = true;
+            this.button19_3234.Click += new System.EventHandler(this.button19_3234_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(284, 396);
+            this.ClientSize = new System.Drawing.Size(383, 396);
+            this.Controls.Add(this.button19_3234);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -340,6 +351,7 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button19_3234;
     }
 }
 

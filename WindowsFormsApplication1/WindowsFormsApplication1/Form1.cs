@@ -133,5 +133,15 @@ namespace WindowsFormsApplication1
             textBox1.Text = "";
             label1.Text = "";
         }
+
+        private void button19_3234_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Вывод будет =" + " " + textBox1.Text);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
