@@ -49,6 +49,7 @@
             this.button18 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button_hai = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -294,12 +295,23 @@
             this.button_hai.UseVisualStyleBackColor = true;
             this.button_hai.Click += new System.EventHandler(this.button_hai_Click);
             // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(282, 208);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(89, 23);
+            this.button19.TabIndex = 21;
+            this.button19.Text = "Прощание :(";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(383, 396);
+            this.Controls.Add(this.button19);
             this.Controls.Add(this.button_hai);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button18);
@@ -351,6 +363,7 @@
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button_hai;
+        private System.Windows.Forms.Button button19;
     }
 }
 

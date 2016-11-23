@@ -138,5 +138,10 @@ namespace WindowsFormsApplication1
         {
           textBox1.Text = ("Привет математик!");
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = ("Пока, математик!");
+        }
     }
 }
