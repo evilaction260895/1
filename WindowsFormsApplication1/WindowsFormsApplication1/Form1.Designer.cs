@@ -301,8 +301,9 @@
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(89, 23);
             this.button19.TabIndex = 21;
-            this.button19.Text = "button19";
+            this.button19.Text = "Прощание :(";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // Form1
             // 
